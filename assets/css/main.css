@@ -363,6 +363,18 @@ input, select, textarea {
 
    }
 
+   :root {
+	--text-multiplier: 1;
+   }
+   @media (min-width: 48rem) {
+	:root {
+	  --text-multiplier: 1.5;
+	}
+   }
+   .sizing {
+	font-size: calc(1.5em * var(--text-multiplier));
+   }
+
 /* Row */
 
 	.row {
