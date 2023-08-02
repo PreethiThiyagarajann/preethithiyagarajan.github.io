@@ -353,7 +353,15 @@ input, select, textarea {
    img:hover + .text { 
     visibility: visible; 
    } 
-		
+	
+   .logoimage{
+	width: auto;
+	height: auto;
+	min-height: 30px;
+	min-width: 30px;
+	max-width: 100px;
+
+   }
 
 /* Row */
 
