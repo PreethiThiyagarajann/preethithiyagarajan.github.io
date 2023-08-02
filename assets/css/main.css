@@ -374,6 +374,9 @@ input, select, textarea {
    .sizing {
 	font-size: calc(1.5em * var(--text-multiplier));
    }
+   .parasizing{
+	font-size: calc(1em * var(--text-multiplier)); 
+   }
 
 /* Row */
 
