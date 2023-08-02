@@ -357,8 +357,8 @@ input, select, textarea {
    .logoimage{
 	width: auto;
 	height: auto;
-	min-height: 30px;
-	min-width: 30px;
+	min-height: 40px;
+	min-width: 40px;
 	max-width: 100px;
 
    }
